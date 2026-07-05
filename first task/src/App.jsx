@@ -5,6 +5,9 @@ import Counter from './Counter';
 import Toggel from './Toggel';
 import ToggleText from './ToggleText';
 import Input from './Input';
+import FruitList from './FruitList';
+import UserDirectory from './UserDirectory';
+
 
 function App() {
 
@@ -18,6 +21,9 @@ function App() {
     <Toggel />
     <ToggleText />
     <Input />
+    <FruitList />
+    <UserDirectory /> 
+  
 
 
   </div>
