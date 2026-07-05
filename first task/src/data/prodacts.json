@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "price": 1.5,
+        "category": "Fruit",
+        "stock": 32,
+        "rating": 4.9,
+        "description": "Fresh red apples with a crisp bite and natural sweetness.",
+        "details": "Perfect for snacks, pies, and smoothies. Sourced from local orchards and packed the same day.",
+        "image": "/images/products/apple.svg"
+    },
+    {
+        "id": 2,
+        "name": "Banana",
+        "price": 0.5,
+        "category": "Fruit",
+        "stock": 48,
+        "rating": 4.7,
+        "description": "Yellow bananas with a creamy texture and sweet flavor.",
+        "details": "Ideal for breakfast, baking, or quick energy on the go. Rich in potassium and vitamin B6.",
+        "image": "/images/products/banana.svg"
+    },
+    {
+        "id": 3,
+        "name": "Orange",
+        "price": 0.8,
+        "category": "Citrus",
+        "stock": 20,
+        "rating": 4.8,
+        "description": "Juicy oranges bursting with bright citrus flavor.",
+        "details": "Great for fresh juice, fruit salads, or a vitamin C boost. Smooth skin with easy peeling.",
+        "image": "/images/products/orange.svg"
+    },
+    {
+        "id": 4,
+        "name": "Grapes",
+        "price": 2.0,
+        "category": "Fruit",
+        "stock": 18,
+        "rating": 4.6,
+        "description": "Seedless grapes with a sweet, refreshing crunch.",
+        "details": "Perfect for snacking and cheese platters. Keep chilled for the best texture.",
+        "image": "/images/products/grapes.svg"
+    },
+    {
+        "id": 5,
+        "name": "Mango",
+        "price": 1.2,
+        "category": "Tropical",
+        "stock": 14,
+        "rating": 4.8,
+        "description": "Ripe mangoes with smooth, fragrant flesh.",
+        "details": "Excellent in smoothies, desserts, and salads. Naturally sweet and richly aromatic.",
+        "image": "/images/products/mango.svg"
+    },
+    {
+        "id": 6,
+        "name": "Pineapple",
+        "price": 3.0,
+        "category": "Tropical",
+        "stock": 10,
+        "rating": 4.7,
+        "description": "Tropical pineapple with bright, tangy sweetness.",
+        "details": "Great for grilling, juicing, or fruit bowls. Peel carefully and enjoy the juicy texture.",
+        "image": "/images/products/pineapple.svg"
+    },
+    {
+        "id": 7,
+        "name": "Strawberry",
+        "price": 2.5,
+        "category": "Berry",
+        "stock": 22,
+        "rating": 4.9,
+        "description": "Sweet strawberries with fragrant, ruby-red berries.",
+        "details": "Perfect for desserts, jams, or a fresh snack. Keep refrigerated for maximum freshness.",
+        "image": "/images/products/strawberry.svg"
+    },
+    {
+        "id": 8,
+        "name": "Watermelon",
+        "price": 4.0,
+        "category": "Melon",
+        "stock": 8,
+        "rating": 4.8,
+        "description": "Hydrating watermelon with juicy, crisp slices.",
+        "details": "Perfect for summer picnics, salads, and refreshing drinks. Best served chilled.",
+        "image": "/images/products/watermelon.svg"
+    },
+    {
+        "id": 9,
+        "name": "Blueberry",
+        "price": 3.5,
+        "category": "Berry",
+        "stock": 16,
+        "rating": 4.9,
+        "description": "Plump blueberries with sweet and slightly tangy flavor.",
+        "details": "Ideal for baking, smoothies, or topping cereals. Packed with antioxidants.",
+        "image": "/images/products/blueberry.svg"
+    },
+    {
+        "id": 10,
+        "name": "Kiwi",
+        "price": 1.8,
+        "category": "Fruit",
+        "stock": 26,
+        "rating": 4.7,
+        "description": "Bright green kiwi with tangy, tropical flavor.",
+        "details": "Use in fruit salads, desserts, or enjoy raw with a spoon. High in vitamin C and fiber.",
+        "image": "/images/products/kiwi.svg"
+    }
+]
+
