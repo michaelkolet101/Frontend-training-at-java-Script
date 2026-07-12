@@ -90,7 +90,25 @@ console.log(difference(arr1, arr2));   // [1, 2]
 console.log(chunk([1, 2, 3, 4, 5], 2)); // [[1, 2], [3, 4], [5]]
 
 
+function randomOperation(handleSuccess, handleError) {
+    console.log("מתחיל פעולה...");
 
+    setTimeout(() => {
+        const isSuccess = Math.random() > 0.5; // הצלחה ב-50% מהמקרים
+
+        if (isSuccess) {
+            handleSuccess("הפעולה הצליחה!");
+        } else {
+            handleError("הפעולה נכשלה.");
+        }
+    }, 2000);
+}
+
+// קריאה לפונקציה
+randomOperation(
+    (msg) => console.log("Success:", msg),
+    (err) => console.error("Error:", err)
+);
 
   return (
     <div>
