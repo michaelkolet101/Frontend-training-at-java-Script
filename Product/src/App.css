@@ -1,0 +1,158 @@
+/* משתני צבעים לניהול נוח */
+:root {
+  --primary-color: #6c5ce7;     /* סגול נעים */
+  --accent-color: #ff7675;      /* קורל מזמין לכפתורים */
+  --bg-color: #f8f9fa;          /* רקע בהיר מאוד */
+  --text-dark: #2d3436;        /* טקסט כהה */
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+}
+
+/* עיצוב ה-Navbar - לוגו בולט */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: var(--primary-color); /* רקע סגול */
+  color: var(--white);
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  color: #fab1a0; /* צבע ניגודי ללוגו - כתום עדין */
+  text-transform: uppercase;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* עיצוב כרטיסי מוצר */
+.card {
+  background: var(--white);
+  border-radius: 16px; /* פינות מעוגלות יותר */
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  border: 1px solid #eee;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* כפתורים מזמינים */
+button {
+  background-color: var(--accent-color); /* צבע הקורל הבולט */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px; /* כפתור עגול ומזמין */
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button.delete-btn {
+  background-color: #b2bec3; /* צבע אפור ניטרלי למחיקה כדי לא להפחיד */
+}
+
+/* כותרות */
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.add-product-container {
+  max-width: 400px;
+  margin: 50px auto; /* ה-auto דואג למרכז אופקית */
+  padding: 2rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* פריסת רשימת המוצרים */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 2rem;
+}
+
+/* עיצוב הכרטיס (Card) */
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  border: 1px solid #eee;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* עיצוב כפתורים בתוך הכרטיס */
+.card button {
+  background-color: #ff7675; /* צבע הקורל */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5px;
+  transition: opacity 0.3s;
+}
+
+.card button:hover {
+  opacity: 0.9;
+}
+
+.card button.delete-btn {
+  background-color: #b2bec3; /* אפור למחיקה */
+}
